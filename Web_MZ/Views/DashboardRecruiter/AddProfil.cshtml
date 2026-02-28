@@ -1,0 +1,109 @@
+﻿
+@{
+    Layout = null;
+}
+@using Web_MZ.Entities
+@model Recruiter
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TalentFrame</title>
+
+    <link rel="icon" type="image/png" href="~/images/logo2.png" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/StyleSheet3.css" asp-append-version="true" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body class="fontt">
+
+
+    <div class="container mt-4 profile-setup">
+
+        <div class="d-flex justify-content-center mb-3">
+            <img src="~/images/logo2.png" width="60" />
+        </div>
+
+        <h3 class="fw-bold text-center">
+            Final details before publishing your recruiter profile
+        </h3>
+
+        <h6 class="text-muted text-center mb-5">
+            A clear company profile helps attract the right talents.
+        </h6>
+
+        <form asp-action="AddProfil" asp-controller="Recruiter" method="post" enctype="multipart/form-data">
+            <div class="row g-4">
+
+                <!-- Profile image -->
+                <div class="col-md-4 text-center">
+                    <img id="profilePreview"
+                         src="~/images/utilisateur.png"
+                         class="profile-img mb-3"
+                         alt="Profile image" />
+
+                    <label for="profilePic" class="btn btn-outline-primary">
+                        <i class="ri-add-line me-2"></i> Upload Photo
+                    </label>
+
+                    <input type="file"
+                           id="profilePic"
+                           name="ProfileImage"
+                           class="d-none"
+                           accept="image/*" />
+                </div>
+
+                <!-- Recruiter info -->
+                <div class="col-md-8">
+
+                    <!-- Company name -->
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Company Name</label>
+                        <input name="CompanyName"
+                               class="form-control"
+                               placeholder="Your company name" />
+                    </div>
+
+                    <!-- Position -->
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Your Position</label>
+                        <input name="Position"
+                               class="form-control"
+                               placeholder="HR Manager, Recruiter, CEO..." />
+                    </div>
+
+                    <!-- Bio -->
+                    <div class="mb-4">
+                        <label class="form-label fw-semibold">Bio</label>
+                        <textarea name="Bio"
+                                  class="form-control"
+                                  rows="4"
+                                  placeholder="Tell candidates about your role and company..."></textarea>
+                    </div>
+
+                    <div class="text-end">
+                        <button type="submit" class="signup-btn2">
+                            Save & Continue
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById("profilePic").addEventListener("change", function (e) {
+            const file = e.target.files[0];
+            if (file) {
+                document.getElementById("profilePreview").src =
+                    URL.createObjectURL(file);
+            }
+        });
+    </script>
+
+</body>
+</html>

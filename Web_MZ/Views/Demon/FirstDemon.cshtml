@@ -1,0 +1,66 @@
+﻿@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TalentFrame</title>
+    <link rel="icon" type="image/png" href="~/images/logo2.png" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/StyleSheet2.css" asp-append-version="true" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body class="fontt">
+    <div class="logo">
+        <img src="~/images/logo.png" alt="TalentFrame Logo" width="200">
+    </div>
+    <div class="container">
+        <!-- Left text & steps -->
+        <div class="left-section">
+            <h2>Hey @ViewBag.FirstName. Ready to showcase your work?</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-icon"><i class="ri-user-line"></i></div>
+                    <div>Create your portfolio by adding your projects and skills.</div>
+                </div>
+
+                <div class="separator"></div>
+
+                <div class="step">
+                    <div class="step-icon"><i class="ri-mail-download-fill"></i></div>
+                    <div>Share your portfolio with clients or employers online.</div>
+                </div>
+
+                <div class="separator"></div>
+
+                <div class="step">
+                    <div class="step-icon"><i class="ri-hand-coin-line"></i></div>
+                    <div>Get noticed and land new opportunities.</div>
+                </div>
+            </div>
+
+            <button class="signup-btn2 mt-3" onclick='window.location.href="@Url.Action("SecondDemon", "Demon")"'>Start building</button>
+        </div>
+
+        <!-- Right profile -->
+        <div class="right-section">
+            <img src="~/images/pic.jpg" alt="Profile Picture" class="profile-img">
+            <div class="profile-name">Zakaria M.</div>
+            <div class="profile-role">Software Engineer</div>
+            <div class="profile-stats">
+                <span><i class="ri-macbook-line me-1"></i>10 Projects</span>
+                <span><i class="ri-star-fill rating-icon me-1"></i>4.9 Rating</span>
+                <span><i class="ri-global-line me-1"></i>3 Web Apps Live</span>
+            </div>
+            <div class="profile-quote">
+                "I build scalable software and web applications, showcasing clean code, innovative solutions, and real-world impact."
+            </div>
+        </div>
+    </div>
+</body>
+</html>

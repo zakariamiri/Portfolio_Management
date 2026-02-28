@@ -1,0 +1,16 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+.fontt {
+    font-family: "Outfit", sans-serif;
+}
+.form-label {
+    font-size: 14px;
+}
+
+.form-select {
+    padding: 10px;
+    border-radius: 10px;
+}
+.progress-bar {
+    transition: width 0.6s ease-in-out;
+}

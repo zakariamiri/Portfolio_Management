@@ -1,0 +1,204 @@
+﻿@model CreatorPaginationVM
+
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TalentFrame</title>
+
+    <link rel="icon" type="image/png" href="~/images/logo2.png" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/StyleSheet5.css" asp-append-version="true" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+        .card {
+            border-radius: 15px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            overflow: hidden;
+        }
+
+            .card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+            }
+
+        .card-img-top {
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            transition: transform 0.3s;
+        }
+
+            .card-img-top:hover {
+                transform: scale(1.05);
+            }
+
+        .card-body h5 {
+            font-size: 1.1rem;
+            color: #333;
+        }
+
+        .card-body p {
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+
+        .card-body .btn {
+            border-radius: 50px;
+            padding: 6px 14px;
+            font-size: 0.9rem;
+            transition: all 0.3s;
+        }
+
+            .card-body .btn:hover {
+                background-color: #0d6efd;
+                color: #fff;
+                border-color: #0d6efd;
+            }
+
+        .pagination .page-item.active .page-link {
+            background-color: #0d6efd;
+            border-color: #0d6efd;
+            color: #fff;
+        }
+
+        .d-flex.gap-2 i {
+            transition: transform 0.3s, color 0.3s;
+        }
+
+            .d-flex.gap-2 i:hover {
+                transform: scale(1.2);
+                color: #0d6efd;
+            }
+
+
+    </style>
+</head>
+
+<body class="fontt">
+    <!-- NAVBAR SUPERIEURE -->
+    <nav class="navbar navbar-expand-lg bg-white py-2 sticky-top" style="border-bottom: 0.5px solid #ddd;z-index: 1020;">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+
+            <!-- LEFT SIDE (Logo) -->
+            <a class="navbar-brand" href="#">
+                <img src="~/images/logo.png" alt="TalentFrame Logo" width="150">
+            </a>
+
+            <!-- RIGHT SIDE -->
+            <div class="d-flex align-items-center gap-4">
+
+                <!-- Search bar -->
+                <form class="d-none d-md-flex">
+                    <div class="search-wrapper">
+                        <i class="ri-search-line search-icon"></i>
+                        <input class="form-control search-input" type="search" placeholder="Search…">
+                    </div>
+                </form>
+
+                <!-- Notification icon -->
+                <i class="ri-notification-3-line fs-4 notification-icon"></i>
+
+                <!-- Profile -->
+                <div class="d-flex align-items-center gap-3 profile-box">
+                    <div class="profile-pic" style="background-image: url('@Url.Content(ViewBag.ProfileImage)');"></div>
+
+                    <div>
+                        <div class="fw-bold capitalize-first">@ViewBag.FirstName @ViewBag.LastName</div>
+                        <div class="small text-muted capitalize-first">@ViewBag.Position</div>
+                        <!-- Company name with icon -->
+                        <div class="small text-muted d-flex align-items-center gap-2">
+                            <i class="ri-building-line text-primary capitalize-first"></i> @ViewBag.CompanyName
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- CONTENT -->
+    <div class="container mt-4">
+
+        <div class="row g-4">
+            @foreach (var creator in Model.Creators)
+            {
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card h-100">
+
+                        <img src="@Url.Content(creator.ProfileImage ?? "~/images/profile-none.png")"
+                             class="card-img-top"
+                             style="height:200px; object-fit:cover;" />
+
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="fw-bold mb-1 capitalize-first">@creator.FullName</h5>
+                            <p class=" small mb-3 text-success capitalize-first">
+                                <i class="ri-map-pin-line text-success"></i> @creator.Country
+                            </p>
+
+                            <p class="card-text capitalize-first mb-2 text-muted" style="max-height:70px; overflow:hidden;">
+                                @creator.Bio
+                            </p>
+
+                            <div class="d-flex gap-3 mb-2 justify-content-center">
+                                @if (!string.IsNullOrEmpty(creator.GitHub))
+                                {
+                                    <a href="@creator.GitHub" target="_blank" style="text-decoration:none;">
+                                        <i class="ri-github-fill fs-4 text-dark"></i>
+                                    </a>
+                                }
+                                @if (!string.IsNullOrEmpty(creator.LinkedIn))
+                                {
+                                    <a href="@creator.LinkedIn" target="_blank" style="text-decoration:none;">
+                                        <i class="ri-linkedin-box-fill fs-4 text-primary"></i>
+                                    </a>
+                                }
+                                @if (!string.IsNullOrEmpty(creator.Email))
+                                {
+                                    <a href="mailto:@creator.Email">
+                                        <img src="~/images/gmail.png"
+                                             alt="Email"
+                                             style="width:23px; height:23px;" />
+                                    </a>
+                                }
+                            </div>
+                            <a href="@Url.Action("ConsulterPortfolio", "DashboardRecruiter", new { id = creator.CreatorId })"
+                               class="btn btn-outline-primary mt-auto">
+                                More info
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            }
+        </div>
+
+        <!-- PAGINATION -->
+        <nav class="mt-4">
+            <ul class="pagination justify-content-center">
+                @for (int i = 1; i <= Model.TotalPages; i++)
+                {
+                    <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
+                        <a class="page-link"
+                           href="@Url.Action("DashRecruiter", new { page = i })">
+                            @i
+                        </a>
+                    </li>
+                }
+            </ul>
+        </nav>
+
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

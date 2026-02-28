@@ -1,0 +1,140 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+.fontt {
+    font-family: "Outfit", sans-serif;
+}
+.signup-btn2 {
+    width: 160px;
+    height: 40px;
+    background-color: #36a51a; /* vert */
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.signup-btn2:hover {
+        background-color: #45b32c; /* vert foncé au hover */
+        transform: scale(1.05);
+    }
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: none; /* pas de carte */
+    width: 80%;
+    max-width: 1000px;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.left-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+    .left-section h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1rem;
+}
+
+.step-icon {
+    font-size: 1.4rem;
+    color: #198754;
+}
+
+.right-section {
+    flex: 0 0 300px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 13px;
+}
+
+.profile-name {
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.profile-role {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.profile-stats {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.profile-quote {
+    font-size: 0.90rem;
+    color: #202020;
+    font-style: italic;
+}
+
+@media (max-width: 992px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .right-section {
+        text-align: center;
+    }
+
+    .get-started-btn {
+        margin-left: 0;
+    }
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.rating-icon {
+    color: #ffd900e3; /* jaune doré */
+}
+
+.separator {
+    width: 80%;
+    height: 1px;
+    background-color: #dedede; /* gris clair */
+}
+
+

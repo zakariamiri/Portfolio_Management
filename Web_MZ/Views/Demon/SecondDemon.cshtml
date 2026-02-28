@@ -1,0 +1,88 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TalentFrame</title>
+    <link rel="icon" type="image/png" href="~/images/logo2.png" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/StyleSheet3.css" asp-append-version="true" />
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body class="fontt">
+    <div class="container mt-4">
+        <div class="progress" style="height: 5px; border-radius: 5px;">
+            <div class="progress-bar" role="progressbar" style="width: 50%; background-color:#68ad19;"
+                 aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4 profile-setup">
+
+        <!-- New header text -->
+        <div class="d-flex justify-content-center mb-3">
+            <img src="~/images/logo2.png" alt="TalentFrame Logo" width="60">
+        </div>
+        <h3 class="mb-2 fw-bold text-center">A few last details, then you can check and publish your profile</h3>
+        <h6 class="mb-5 text-muted text-center">A professional photo helps you build trust with your clients. To keep things safe and simple, we only allow photos of yourself.</h6>
+       
+        <form asp-action="SecondDemon" asp-controller="Creator" method="post" enctype="multipart/form-data">
+        <div class="row g-4">
+
+            <!-- Upload Photo -->
+            <div class="col-md-4 text-center">
+                <div class="photo-upload">
+                    <img id="profilePreview" src="~/images/utilisateur.png" class="profile-img" alt="">
+                    <label for="profilePic" class="btn btn-outline-primary mt-4"><i class="ri-add-line me-2"></i>Upload Photo</label>
+                    <input type="file" id="profilePic" name="ProfileImage" class="d-none" accept="image/*">
+                </div>
+            </div>
+
+            <!-- Bio + Links -->
+            <div class="col-md-8">
+
+                <!-- Bio -->
+                <div class="mb-4">
+                    <label class="form-label fw-semibold">Bio</label>
+                    <textarea class="form-control" rows="4" name="Bio" placeholder="Tell us about yourself..."></textarea>
+                </div>
+
+                <!-- GitHub -->
+                <div class="mb-3">
+                    <label class="form-label fw-semibold">GitHub</label>
+                    <input type="text" class="form-control" name="GitHub" placeholder="https://github.com/username">
+                </div>
+
+                <!-- LinkedIn -->
+                <div class="mb-3">
+                    <label class="form-label fw-semibold">LinkedIn</label>
+                    <input type="text" class="form-control" name="LinkedIn" placeholder="https://linkedin.com/in/username">
+                </div>
+
+                <div class="text-end">
+                    <button class="signup-btn2 mt-2" type="submit">Save & Continue</button>
+                </div>
+
+            </div>
+           
+        </div>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById("profilePic").addEventListener("change", function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                document.getElementById("profilePreview").src = URL.createObjectURL(file);
+            }
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+.fontt {
+    font-family: "Outfit", sans-serif;
+}
+
+.signup-btn2 {
+    width: 160px;
+    height: 40px;
+    background-color: #36a51a; /* vert */
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+ .signup-btn2:hover {
+        background-color: #45b32c; /* vert foncé au hover */
+        transform: scale(1.05);
+    }
+.profile-setup {
+    max-width: 900px;
+}
+
+.photo-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.form-label {
+    color: #333;
+}
+
+textarea, input {
+    border-radius: 10px !important;
+}
+
+.progress-bar {
+    transition: width 0.6s ease-in-out;
+}

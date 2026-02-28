@@ -1,0 +1,129 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Web_MZ
+build_property.RootNamespace = Web_MZ
+build_property.ProjectDir = C:\Users\user\source\repos\ASP .Net Cour\Portfolio_MiriZakaria\Web_MZ\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\user\source\repos\ASP .Net Cour\Portfolio_MiriZakaria\Web_MZ
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/user/source/repos/ASP .Net Cour/Portfolio_MiriZakaria/Web_MZ/Views/Choices/choices.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hvaWNlc1xjaG9pY2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/ASP .Net Cour/Portfolio_MiriZakaria/Web_MZ/Views/DashboardRecruiter/AddProfil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkUmVjcnVpdGVyXEFkZFByb2ZpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/ASP .Net Cour/Portfolio_MiriZakaria/Web_MZ/Views/DashboardRecruiter/ConsulterPortfolio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkUmVjcnVpdGVyXENvbnN1bHRlclBvcnRmb2xpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/ASP .Net Cour/Portfolio_MiriZakaria/Web_MZ/Views/DashboardRecruiter/DashRecruiter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkUmVjcnVpdGVyXERhc2hSZWNydWl0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/ASP .Net Cour/Portfolio_MiriZakaria/Web_MZ/Views/DashboardRecruiter/Welcom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkUmVjcnVpdGVyXFdlbGNvbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/ASP .Net Cour/Portfolio_MiriZakaria/Web_MZ/Views/Dashboard/Certif.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXENlcnRpZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/ASP .Net Cour/Portfolio_MiriZakaria/Web_MZ/Views/Dashboard/competence.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXGNvbXBldGVuY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/ASP .Net Cour/Portfolio_MiriZakaria/Web_MZ/Views/Dashboard/Dash.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXERhc2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/ASP .Net Cour/Portfolio_MiriZakaria/Web_MZ/Views/Dashboard/Experience.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEV4cGVyaWVuY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/ASP .Net Cour/Portfolio_MiriZakaria/Web_MZ/Views/Dashboard/Message.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXE1lc3NhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/ASP .Net Cour/Portfolio_MiriZakaria/Web_MZ/Views/Dashboard/Profil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXFByb2ZpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/ASP .Net Cour/Portfolio_MiriZakaria/Web_MZ/Views/Dashboard/Projet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXFByb2pldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/ASP .Net Cour/Portfolio_MiriZakaria/Web_MZ/Views/Demon/FirstDemon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVtb25cRmlyc3REZW1vbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/ASP .Net Cour/Portfolio_MiriZakaria/Web_MZ/Views/Demon/SecondDemon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVtb25cU2Vjb25kRGVtb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/ASP .Net Cour/Portfolio_MiriZakaria/Web_MZ/Views/Demon/ThirdDemon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVtb25cVGhpcmREZW1vbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/ASP .Net Cour/Portfolio_MiriZakaria/Web_MZ/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/ASP .Net Cour/Portfolio_MiriZakaria/Web_MZ/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/ASP .Net Cour/Portfolio_MiriZakaria/Web_MZ/Views/Login/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cbG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/ASP .Net Cour/Portfolio_MiriZakaria/Web_MZ/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/ASP .Net Cour/Portfolio_MiriZakaria/Web_MZ/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/ASP .Net Cour/Portfolio_MiriZakaria/Web_MZ/Views/SignUpCreator/Creator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblVwQ3JlYXRvclxDcmVhdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/ASP .Net Cour/Portfolio_MiriZakaria/Web_MZ/Views/SignUpRecruiter/recruiter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblVwUmVjcnVpdGVyXHJlY3J1aXRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/ASP .Net Cour/Portfolio_MiriZakaria/Web_MZ/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/ASP .Net Cour/Portfolio_MiriZakaria/Web_MZ/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/ASP .Net Cour/Portfolio_MiriZakaria/Web_MZ/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-etn88e9rbm

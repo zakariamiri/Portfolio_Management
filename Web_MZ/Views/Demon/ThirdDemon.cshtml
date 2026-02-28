@@ -1,0 +1,125 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TalentFrame</title>
+    <link rel="icon" type="image/png" href="~/images/logo2.png" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/StyleSheet4.css" asp-append-version="true" />
+</head>
+<body class="fontt">
+    <!-- Progress Bar -->
+    <div class="container mt-4 mb-4">
+        <div class="progress" style="height: 5px; border-radius: 5px;">
+            <div class="progress-bar" role="progressbar" style="width: 100%; background-color:#68ad19;"
+                 aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <!-- New header text -->
+        <div class="d-flex justify-content-center mb-3">
+            <img src="~/images/logo2.png" alt="TalentFrame Logo" width="60">
+        </div>
+        <h3 class="mb-2 fw-bold text-center">Tell us about the languages you speak</h3>
+        <h6 class="mb-5 text-muted text-center">
+            Adding your language skills helps clients understand how well you can communicate.
+        </h6>
+        <form asp-action="SaveLangues" asp-controller="Langue" method="post">
+        <div class="row g-4">
+
+            <!-- LANGUE 1 -->
+            <div class="col-md-6">
+                    <label class="form-label fw-semibold">Language 1</label>
+                    <select name="Langue1" class="form-select">
+                        <option selected disabled>Select a language</option>
+                        <option>French</option>
+                        <option>English</option>
+                        <option>Spanish</option>
+                        <option>German</option>
+                        <option>Arabic</option>
+                </select>
+            </div>
+
+            <div class="col-md-6">
+                    <label class="form-label fw-semibold">Level</label>
+                    <select name="Niveau1" class="form-select">
+                        <option selected disabled>Select a level</option>
+                        <option>Beginner</option>
+                        <option>Intermediate</option>
+                        <option>Advanced</option>
+                        <option>Fluent</option>
+                        <option>Expert</option>
+                </select>
+            </div>
+
+            <!-- LANGUE 2 -->
+            <div class="col-md-6">
+                    <label class="form-label fw-semibold">Language 2</label>
+                    <select name="Langue2" class="form-select">
+                        <option selected disabled>Select a language</option>
+                        <option>French</option>
+                        <option>English</option>
+                        <option>Spanish</option>
+                        <option>German</option>
+                        <option>Arabic</option>
+                </select>
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label fw-semibold">Level</label>
+                    <select name="Niveau2" class="form-select">
+                        <option selected disabled>Select a level</option>
+                        <option>Beginner</option>
+                        <option>Intermediate</option>
+                        <option>Advanced</option>
+                        <option>Fluent</option>
+                        <option>Expert</option>
+                </select>
+            </div>
+
+            <!-- LANGUE 3 -->
+            <div class="col-md-6">
+                    <label class="form-label fw-semibold">Language 3</label>
+                    <select name="Langue3" class="form-select">
+                        <option selected disabled>Select a language</option>
+                        <option>French</option>
+                        <option>English</option>
+                        <option>Spanish</option>
+                        <option>German</option>
+                        <option>Arabic</option>
+                </select>
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label fw-semibold">Level</label>
+                    <select name="Niveau3" class="form-select">
+                        <option selected disabled>Select a level</option>
+                        <option>Beginner</option>
+                        <option>Intermediate</option>
+                        <option>Advanced</option>
+                        <option>Fluent</option>
+                        <option>Expert</option>
+                </select>
+            </div>
+
+        </div>
+            <!-- Bouton de validation -->
+            <div class="text-center mt-5">
+                <button type="submit" class="btn btn-primary px-4 py-2" style="border-radius: 10px;">
+                    Save & Continue
+                </button>
+            </div>
+        </form>
+     
+    </div>
+
+
+</body>
+</html>

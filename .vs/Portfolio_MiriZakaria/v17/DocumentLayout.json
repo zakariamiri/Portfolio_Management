@@ -1,0 +1,746 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\views\\dashboard\\certif.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\views\\dashboard\\certif.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\services\\certificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\services\\certificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\repository\\certificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\repository\\certificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\repository\\icertificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\repository\\icertificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\services\\competenceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\services\\competenceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\controllers\\recruitercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\controllers\\recruitercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\views\\dashboardrecruiter\\dashrecruiter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\views\\dashboardrecruiter\\dashrecruiter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\views\\dashboardrecruiter\\consulterportfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\views\\dashboardrecruiter\\consulterportfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\views\\dashboardrecruiter\\addprofil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\views\\dashboardrecruiter\\addprofil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\services\\icreatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\services\\icreatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\services\\creatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\services\\creatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\pdf\\creatorcvpdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\pdf\\creatorcvpdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\models\\profilviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\models\\profilviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\views\\dashboard\\projet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\views\\dashboard\\projet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\views\\dashboard\\experience.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\views\\dashboard\\experience.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\views\\dashboard\\dash.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\views\\dashboard\\dash.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\views\\dashboard\\competence.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\views\\dashboard\\competence.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\repository\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\repository\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\repository\\imodifcreatorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\repository\\imodifcreatorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\repository\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\repository\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\repository\\irecruiterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\repository\\irecruiterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\repository\\languerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\repository\\languerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\repository\\modifcreatorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\repository\\modifcreatorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\services\\modifcreatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\services\\modifcreatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\services\\imodifcreatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\services\\imodifcreatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\models\\messagevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\models\\messagevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\models\\certificationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\models\\certificationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\models\\consulterportfoliovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\models\\consulterportfoliovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\models\\creatorcardvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\models\\creatorcardvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\models\\creatorpaginationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\models\\creatorpaginationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\entities\\certification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\entities\\certification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\entities\\competence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\entities\\competence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\entities\\langue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\entities\\langue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|c:\\users\\user\\source\\repos\\asp .net cour\\portfolio_mirizakaria\\web_mz\\entities\\creator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C537445-5C3B-454A-8C0D-3E61367D742D}|Web_MZ\\Web_MZ.csproj|solutionrelative:web_mz\\entities\\creator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Web_MZ\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAANMBAAAAAAAAAAAAALcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T15:12:42.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Program.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Program.cs",
+              "RelativeToolTip": "Web_MZ\\Program.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwEsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T22:15:22.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Data\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Data\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Data\\MyDbContext.cs",
+              "RelativeToolTip": "Web_MZ\\Data\\MyDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA0wCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T13:31:56.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CertificationService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Services\\CertificationService.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Services\\CertificationService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Services\\CertificationService.cs",
+              "RelativeToolTip": "Web_MZ\\Services\\CertificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T18:24:43.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\appsettings.json",
+              "RelativeDocumentMoniker": "Web_MZ\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\appsettings.json",
+              "RelativeToolTip": "Web_MZ\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-06T19:57:59.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Certif.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Views\\Dashboard\\Certif.cshtml",
+              "RelativeDocumentMoniker": "Web_MZ\\Views\\Dashboard\\Certif.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Views\\Dashboard\\Certif.cshtml",
+              "RelativeToolTip": "Web_MZ\\Views\\Dashboard\\Certif.cshtml",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAAAJQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-21T23:20:40.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICertificationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Repository\\ICertificationRepository.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Repository\\ICertificationRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Repository\\ICertificationRepository.cs",
+              "RelativeToolTip": "Web_MZ\\Repository\\ICertificationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T00:14:59.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Entities\\User.cs",
+              "RelativeToolTip": "Web_MZ\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T13:34:16.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CertificationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Repository\\CertificationRepository.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Repository\\CertificationRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Repository\\CertificationRepository.cs",
+              "RelativeToolTip": "Web_MZ\\Repository\\CertificationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T18:23:59.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Web_MZ\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwCAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T17:17:45.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddProfil.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Views\\DashboardRecruiter\\AddProfil.cshtml",
+              "RelativeDocumentMoniker": "Web_MZ\\Views\\DashboardRecruiter\\AddProfil.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Views\\DashboardRecruiter\\AddProfil.cshtml",
+              "RelativeToolTip": "Web_MZ\\Views\\DashboardRecruiter\\AddProfil.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-21T18:38:54.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreatorService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Services\\CreatorService.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Services\\CreatorService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Services\\CreatorService.cs",
+              "RelativeToolTip": "Web_MZ\\Services\\CreatorService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwEEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T19:39:33.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CompetenceService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Services\\CompetenceService.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Services\\CompetenceService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Services\\CompetenceService.cs",
+              "RelativeToolTip": "Web_MZ\\Services\\CompetenceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T17:32:20.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ConsulterPortfolio.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Views\\DashboardRecruiter\\ConsulterPortfolio.cshtml",
+              "RelativeDocumentMoniker": "Web_MZ\\Views\\DashboardRecruiter\\ConsulterPortfolio.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Views\\DashboardRecruiter\\ConsulterPortfolio.cshtml",
+              "RelativeToolTip": "Web_MZ\\Views\\DashboardRecruiter\\ConsulterPortfolio.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGwAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-21T19:33:54.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DashRecruiter.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Views\\DashboardRecruiter\\DashRecruiter.cshtml",
+              "RelativeDocumentMoniker": "Web_MZ\\Views\\DashboardRecruiter\\DashRecruiter.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Views\\DashboardRecruiter\\DashRecruiter.cshtml",
+              "RelativeToolTip": "Web_MZ\\Views\\DashboardRecruiter\\DashRecruiter.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAKkAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-21T12:43:12.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RecruiterController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Controllers\\RecruiterController.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Controllers\\RecruiterController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Controllers\\RecruiterController.cs",
+              "RelativeToolTip": "Web_MZ\\Controllers\\RecruiterController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T11:43:12.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProfilViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Models\\ProfilViewModel.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Models\\ProfilViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Models\\ProfilViewModel.cs",
+              "RelativeToolTip": "Web_MZ\\Models\\ProfilViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T15:59:34.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreatorCvPdf.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Pdf\\CreatorCvPdf.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Pdf\\CreatorCvPdf.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Pdf\\CreatorCvPdf.cs",
+              "RelativeToolTip": "Web_MZ\\Pdf\\CreatorCvPdf.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAvwAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T22:59:15.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ICreatorService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Services\\ICreatorService.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Services\\ICreatorService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Services\\ICreatorService.cs",
+              "RelativeToolTip": "Web_MZ\\Services\\ICreatorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T19:41:51.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Experience.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Views\\Dashboard\\Experience.cshtml",
+              "RelativeDocumentMoniker": "Web_MZ\\Views\\Dashboard\\Experience.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Views\\Dashboard\\Experience.cshtml",
+              "RelativeToolTip": "Web_MZ\\Views\\Dashboard\\Experience.cshtml",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAAAHkAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-21T17:13:02.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Dash.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Views\\Dashboard\\Dash.cshtml",
+              "RelativeDocumentMoniker": "Web_MZ\\Views\\Dashboard\\Dash.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Views\\Dashboard\\Dash.cshtml",
+              "RelativeToolTip": "Web_MZ\\Views\\Dashboard\\Dash.cshtml",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAF4AAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-21T17:22:11.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "competence.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Views\\Dashboard\\competence.cshtml",
+              "RelativeDocumentMoniker": "Web_MZ\\Views\\Dashboard\\competence.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Views\\Dashboard\\competence.cshtml",
+              "RelativeToolTip": "Web_MZ\\Views\\Dashboard\\competence.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHkAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-21T23:22:07.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Projet.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Views\\Dashboard\\Projet.cshtml",
+              "RelativeDocumentMoniker": "Web_MZ\\Views\\Dashboard\\Projet.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Views\\Dashboard\\Projet.cshtml",
+              "RelativeToolTip": "Web_MZ\\Views\\Dashboard\\Projet.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHoAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-21T23:22:58.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IAccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Repository\\IAccountRepository.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Repository\\IAccountRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Repository\\IAccountRepository.cs",
+              "RelativeToolTip": "Web_MZ\\Repository\\IAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T22:11:48.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Repository\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Repository\\AccountRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Repository\\AccountRepository.cs",
+              "RelativeToolTip": "Web_MZ\\Repository\\AccountRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T22:12:26.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Services\\IAccountService.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Services\\IAccountService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Services\\IAccountService.cs",
+              "RelativeToolTip": "Web_MZ\\Services\\IAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T22:13:57.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Services\\AccountService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Services\\AccountService.cs",
+              "RelativeToolTip": "Web_MZ\\Services\\AccountService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T22:14:37.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IProjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Repository\\IProjectRepository.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Repository\\IProjectRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Repository\\IProjectRepository.cs",
+              "RelativeToolTip": "Web_MZ\\Repository\\IProjectRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T22:07:15.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IRecruiterRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Repository\\IRecruiterRepository.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Repository\\IRecruiterRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Repository\\IRecruiterRepository.cs",
+              "RelativeToolTip": "Web_MZ\\Repository\\IRecruiterRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T22:07:10.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LangueRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Repository\\LangueRepository.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Repository\\LangueRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Repository\\LangueRepository.cs",
+              "RelativeToolTip": "Web_MZ\\Repository\\LangueRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T22:07:04.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IModifCreatorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Repository\\IModifCreatorRepository.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Repository\\IModifCreatorRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Repository\\IModifCreatorRepository.cs",
+              "RelativeToolTip": "Web_MZ\\Repository\\IModifCreatorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T16:16:26.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ModifCreatorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Repository\\ModifCreatorRepository.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Repository\\ModifCreatorRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Repository\\ModifCreatorRepository.cs",
+              "RelativeToolTip": "Web_MZ\\Repository\\ModifCreatorRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAywA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T16:13:22.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ModifCreatorService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Services\\ModifCreatorService.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Services\\ModifCreatorService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Services\\ModifCreatorService.cs",
+              "RelativeToolTip": "Web_MZ\\Services\\ModifCreatorService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T16:13:02.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IModifCreatorService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Services\\IModifCreatorService.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Services\\IModifCreatorService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Services\\IModifCreatorService.cs",
+              "RelativeToolTip": "Web_MZ\\Services\\IModifCreatorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T16:19:08.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "MessageVM.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Models\\MessageVM.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Models\\MessageVM.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Models\\MessageVM.cs",
+              "RelativeToolTip": "Web_MZ\\Models\\MessageVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T23:16:31.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CertificationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Models\\CertificationViewModel.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Models\\CertificationViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Models\\CertificationViewModel.cs",
+              "RelativeToolTip": "Web_MZ\\Models\\CertificationViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T23:20:34.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ConsulterPortfolioVM.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Models\\ConsulterPortfolioVM.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Models\\ConsulterPortfolioVM.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Models\\ConsulterPortfolioVM.cs",
+              "RelativeToolTip": "Web_MZ\\Models\\ConsulterPortfolioVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T19:04:45.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Entities\\Contact.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Entities\\Contact.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Entities\\Contact.cs",
+              "RelativeToolTip": "Web_MZ\\Entities\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T22:06:15.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Competence.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Entities\\Competence.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Entities\\Competence.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Entities\\Competence.cs",
+              "RelativeToolTip": "Web_MZ\\Entities\\Competence.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T13:29:55.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CreatorCardVM.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Models\\CreatorCardVM.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Models\\CreatorCardVM.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Models\\CreatorCardVM.cs",
+              "RelativeToolTip": "Web_MZ\\Models\\CreatorCardVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T13:43:29.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CreatorPaginationVM.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Models\\CreatorPaginationVM.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Models\\CreatorPaginationVM.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Models\\CreatorPaginationVM.cs",
+              "RelativeToolTip": "Web_MZ\\Models\\CreatorPaginationVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T13:44:20.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Certification.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Entities\\Certification.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Entities\\Certification.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Entities\\Certification.cs",
+              "RelativeToolTip": "Web_MZ\\Entities\\Certification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T13:30:10.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Langue.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Entities\\Langue.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Entities\\Langue.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Entities\\Langue.cs",
+              "RelativeToolTip": "Web_MZ\\Entities\\Langue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T13:29:10.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Entities\\Project.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Entities\\Project.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Entities\\Project.cs",
+              "RelativeToolTip": "Web_MZ\\Entities\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T13:28:51.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Creator.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Entities\\Creator.cs",
+              "RelativeDocumentMoniker": "Web_MZ\\Entities\\Creator.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ASP .Net Cour\\Portfolio_MiriZakaria\\Web_MZ\\Entities\\Creator.cs",
+              "RelativeToolTip": "Web_MZ\\Entities\\Creator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T13:28:27.455Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

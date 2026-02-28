@@ -1,0 +1,129 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = null;
+}
+
+@model Web_MZ.Entities.User
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TalentFrame - SignUp as a Creator</title>
+
+    <link rel="icon" type="image/png" href="~/images/logo2.png" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+</head>
+<body class="fontt">
+
+
+    <div style="display: flex; align-items: center; width: 100%; padding: 15px 20px;">
+        <div style="flex: 1;">
+            <img src="~/images/logo.png" alt="TalentFrame Logo" width="200">
+        </div>
+
+        <div style="flex: 1; text-align: center; font-size: 17px;font-weight: 400;">
+            Here to hire talent?
+        </div>
+
+        <div style="flex: 1; text-align: right;">
+            <a href='@Url.Action("recruiter", "SignupRecruiter")' style="font-weight: 600; color: #0d6efd;" class="text-decoration-underline">
+                Join as a client
+            </a>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <div class="d-flex justify-content-center mb-3">
+            <img src="~/images/logo2.png" alt="TalentFrame Logo" width="50">
+        </div>
+        <h3 class="fw-semibold">Sign up to find work you love</h3>
+    </div>
+
+    <div class="container mt-4" style="max-width: 600px;">
+        <form asp-action="Creator" method="post">
+            @Html.AntiForgeryToken()
+            <div class="row mb-2">
+                <div class="col">
+                    <label class="form-label">First name</label>
+                    <input type="text" class="form-control" asp-for="FirstName" placeholder="John">
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+                <div class="col">
+                    <label class="form-label">Last name</label>
+                    <input type="text" class="form-control" asp-for="LastName" placeholder="Doe">
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+
+                </div>
+            </div>
+
+            <!-- Email -->
+            <div class="mb-2">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" asp-for="Email" placeholder="example@mail.com">
+                <span asp-validation-for="Email" class="text-danger"></span>
+
+            </div>
+
+            <!-- Password -->
+            <div class="mb-2">
+                <label class="form-label">Password</label>
+                <input type="password" class="form-control" asp-for="Password" placeholder="••••••••">
+                <span asp-validation-for="Password" class="text-danger"></span>
+
+            </div>
+
+            <div class="row mb-3">
+                <div class="col">
+                    <label class="form-label">Country</label>
+                    <select class="form-select" asp-for="Country">
+                        <option value="">Choose your country</option>
+                        <option value="Morocco">Morocco</option>
+                        <option value="France">France</option>
+                        <option value="United States">United States</option>
+                        <option value="Canada">Canada</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Spain">Spain</option>
+                        <option value="Italy">Italy</option>
+                    </select>
+                    <span asp-validation-for="Country" class="text-danger"></span>
+
+                </div>
+                <div class="col">
+                    <label class="form-label">Phone</label>
+                    <input type="text" class="form-control" asp-for="Phone" placeholder="+212 ...">
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+
+                </div>
+            </div>
+
+            <!-- Button -->
+            <div class="create-account-container-2">
+                <button type="submit" class="create-account-btn-2 w-100">
+                    Create my account
+                </button>
+            </div>
+
+            <div class="text-center mt-3">
+                <small class="text-muted">
+                    Already have an account?
+                    <a class="text-primary text-decoration-underline fw-semibold ms-1"
+                       href='@Url.Action("Login", "Login")'>
+                        Login
+                    </a>
+
+                </small>
+            </div>
+        </form>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>

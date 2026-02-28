@@ -1,0 +1,316 @@
+﻿@{
+    Layout = null;
+}
+@using Web_MZ.Entities
+@model List<Competence>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TalentFrame - Skill</title>
+
+    <link rel="icon" type="image/png" href="~/images/logo2.png" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/StyleSheet5.css" asp-append-version="true" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+        /* Bouton Cancel */
+        .btn-cancel {
+            background-color: #35af16;
+            border-color: #35af16;
+            color: white;
+        }
+
+            .btn-cancel:hover {
+                background-color: #2f9c13;
+                border-color: #2f9c13;
+            }
+
+        /* Bouton Save */
+        .btn-save {
+            background-color: #0a3f70;
+            border-color: #0a3f70;
+            color: white;
+        }
+
+            .btn-save:hover {
+                background-color: #06325c;
+                border-color: #06325c;
+            }
+    </style>
+</head>
+
+<body class="fontt">
+    <!-- NAVBAR SUPERIEURE -->
+    <nav class="navbar navbar-expand-lg bg-white py-2" style="border-bottom: 0.5px solid #ddd;">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+
+            <!-- LEFT SIDE (Logo) -->
+            <a class="navbar-brand" href="#">
+                <img src="~/images/logo.png" alt="TalentFrame Logo" width="150">
+            </a>
+
+            <!-- RIGHT SIDE -->
+            <div class="d-flex align-items-center gap-4">
+
+                <!-- Search bar -->
+                <form class="d-none d-md-flex">
+                    <div class="search-wrapper">
+                        <i class="ri-search-line search-icon"></i>
+                        <input class="form-control search-input" type="search" placeholder="Search…">
+                    </div>
+                </form>
+
+                <!-- Notification icon -->
+                <i class="ri-notification-3-line fs-4 notification-icon"></i>
+
+                <!-- Profile -->
+                <div class="d-flex align-items-center gap-2 profile-box">
+                    <div class="profile-pic" style="background-image: url('@Url.Content(ViewBag.ProfileImage)');"></div>
+
+                    <div>
+                        <div class="fw-bold capitalize-first">@ViewBag.FirstName @ViewBag.LastName</div>
+                        <div class="small text-muted capitalize-first">@ViewBag.Bio</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- NAVBAR INFERIEURE (LIENS CENTRES ET EGALITAIRES) -->
+    <nav class="navbar navbar-expand-lg shadow-sm py-3">
+        <div class="container-fluid">
+
+            <!-- LEFT LINKS -->
+            <div class="d-flex">
+                <a href="@Url.Action("Dash", "Dashboard")" class="nav-link-custom text-decoration-none d-flex align-items-center text-dark fs-6 px-3 py-2">
+                    <i class="ri-home-4-line me-1"></i> Home
+                </a>
+                <a href="@Url.Action("Projet", "Dashboard")" class="nav-link-custom text-decoration-none d-flex align-items-center text-dark fs-6 px-3 py-2">
+                    <i class="ri-stack-line me-1"></i> Add Project <i class="ri-arrow-down-s-line ms-2"></i>
+                </a>
+                <a href="@Url.Action("Experience", "Dashboard")" class="nav-link-custom text-decoration-none d-flex align-items-center text-dark  fs-6 px-3 py-2">
+                    <i class="ri-briefcase-line me-1"></i> Add Experience <i class="ri-arrow-down-s-line ms-2"></i>
+                </a>
+                <a href="@Url.Action("Certif", "Dashboard")" class="nav-link-custom text-decoration-none d-flex align-items-center text-dark fs-6 px-3 py-2">
+                    <i class="ri-award-fill me-1"></i> Add Certification <i class="ri-arrow-down-s-line ms-2"></i>
+                </a>
+                <a href="@Url.Action("competence", "Dashboard")" class="nav-link-custom text-decoration-none d-flex align-items-center text-success fs-6 px-3 py-2">
+                    <i class="ri-git-branch-fill me-1"></i>Add Skill <i class="ri-arrow-down-s-line ms-2"></i>
+                </a>
+                <a href="@Url.Action("Message", "Dashboard")" class="nav-link-custom text-decoration-none d-flex align-items-center text-dark fs-6 px-3 py-2">
+                    <i class="ri-mail-send-fill me-1"></i> Messages <i class="ri-arrow-down-s-line ms-2"></i>
+                </a>
+            </div>
+
+            <div class="dropdown ms-auto">
+                <a class="btn settings-btn dropdown-toggle" href="#" role="button"
+                   data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="ri-settings-3-line me-1"></i> Settings
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end settings-menu">
+                    <li><a class="dropdown-item" href="@Url.Action("Profil", "Dashboard")"><i class="ri-user-line me-2"></i> Profile</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="ri-lock-line me-2"></i> Security</a></li>
+
+                    <li><hr class="dropdown-divider"></li>
+
+                    <li>
+                        <a class="dropdown-item text-danger" href="@Url.Action("Index", "Home")">
+                            <i class="ri-logout-circle-line me-2"></i> Logout
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container mt-4">
+
+        <!-- Bouton pour afficher le formulaire d'ajout -->
+        <div class="d-flex justify-content-end mb-3">
+            <button class="btn btn-primary btn-sm "
+                    data-bs-toggle="collapse"
+                    data-bs-target="#addCompetenceForm">
+                <i class="ri-add-line me-1"></i> Add Skill
+            </button>
+        </div>
+
+        <!-- Formulaire d'ajout -->
+        <div class="collapse" id="addCompetenceForm">
+            <div class="card shadow-sm mb-4">
+                <div class="card-body">
+                    <form asp-action="Addcompetence" method="post">
+                        <div class="row g-3">
+
+                            <div class="col-md-6">
+                                <label class="form-label">Name</label>
+                                <input class="form-control" name="Name"
+                                       placeholder="C#, React, Communication" required />
+                            </div>
+
+                            <div class="col-md-3">
+                                <label class="form-label">Level (1–5)</label>
+                                <select class="form-control" name="Level">
+                                    <option value="1">1 - Beginner</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3 - Intermediate</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 - Expert</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-3">
+                                <label class="form-label">Category</label>
+                                <input class="form-control" name="Category"
+                                       placeholder="Backend / Frontend / Soft Skills" />
+                            </div>
+
+                        </div>
+
+                        <button class="btn btn-primary btn-sm mt-3">
+                            <i class="ri-add-line me-1"></i> Add Skill
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Modal pour modifier une comptence -->
+        <div class="modal fade" id="editCompetenceModal" tabindex="-1" aria-labelledby="editCompModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form asp-action="Editcompetence" method="post">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title">Edit Skill</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                       
+                        <div class="modal-body">
+                            <input type="hidden" name="Id" id="editId" />
+
+                            <div class="mb-3">
+                            <label class="form-label">Name</label>
+                                <input type="text" class="form-control" name="Name" id="editName" />
+                            </div>
+
+                            <div class="mb-3">
+                            <label class="form-label">Level</label>
+                            <select class="form-control mb-2" name="Level" id="editLevel">
+                                <option value="1">1 - Beginner</option>
+                                <option value="2">2</option>
+                                <option value="3">3 - Intermediate</option>
+                                <option value="4">4</option>
+                                <option value="5">5 - Expert</option>
+                            </select>
+                             </div>
+
+                            <div class="mb-3">
+                             <label class="form-label">Category</label>
+                               <input type="text" class="form-control" name="Category" id="editCategory" />
+                            </div>
+
+                        </div>
+
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary btn-cancel" data-bs-dismiss="modal">Cancel</button>
+                            <button class="btn btn-success btn-save">Save changes</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Liste des Competence -->
+
+        <div class="card shadow-sm">
+            <div class="card-header bg-white fw-bold d-flex align-items-center">
+                <i class="ri-git-branch-line me-2"></i> My Skills
+            </div>
+
+            <div class="card-body p-0">
+                <table class="table table-striped mb-0">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Name</th>
+                            <th>Level</th>
+                            <th>Category</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var comp in Model)
+                        {
+                            <tr>
+                                <td>@comp.Name</td>
+                                <td>
+                                    @for (int i = 0; i < comp.Level; i++)
+                                    {
+                                        <i class="ri-star-fill text-warning"></i>
+                                    }
+                                </td>
+                                <td>@comp.Category</td>
+
+                                <td>
+                                    <!-- EDIT -->
+                                    <button class="btn btn-sm btn-outline-secondary me-1 editBtn"
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#editCompetenceModal"
+                                            data-id="@comp.Id"
+                                            data-name="@comp.Name"
+                                            data-level="@comp.Level"
+                                            data-category="@comp.Category">
+                                        <i class="ri-edit-line"></i>
+                                    </button>
+
+                                    <!-- DELETE -->
+                                    <form asp-action="Deletecompetence"
+                                          method="post"
+                                          class="d-inline">
+                                        <input type="hidden" name="id" value="@comp.Id" />
+                                        <button class="btn btn-sm btn-outline-danger"
+                                                onclick="return confirm('Delete this skill?')">
+                                            <i class="ri-delete-bin-line"></i>
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        document.getElementById('editCompetenceModal')
+        .addEventListener('show.bs.modal', function (e) {
+
+            var b = e.relatedTarget;
+
+            editId.value = b.dataset.id;
+            editName.value = b.dataset.name;
+            editLevel.value = b.dataset.level;
+            editCategory.value = b.dataset.category;
+        });
+    </script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+</html>
+

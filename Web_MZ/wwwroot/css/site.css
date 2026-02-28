@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+.fontt {
+    font-family: "Outfit", sans-serif;
+}
+
+.titre-darkblue {
+    font-family: "Outfit", sans-serif;
+    font-size: 50px; /* grande taille */
+    font-weight: 800; /* gras */
+    color: #0d4bb6; /* dark blue */
+    transition: transform 0.3s ease; /* animation smooth */
+    cursor: pointer; /* style pointeur sur hover */
+}
+
+    .titre-darkblue:hover {
+        transform: scale(1.05); /* zoom léger au survol */
+    }
+
+.par-titre {
+    font-weight: 500;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.login-btn {
+    width: 100px;
+    height: 36px;
+    background-color: transparent;
+    border: 1px solid #054ebb; /* bleu foncé */
+    color: #054ebb;
+    transition: all 0.3s ease;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+    .login-btn:hover {
+        background-color: #054ebb;
+        color: #fff;
+        transform: scale(1.05);
+    }
+
+.signup-btn {
+    width: 100px;
+    height: 36px;
+    background-color: #36a51a; /* vert */
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+    .signup-btn:hover {
+        background-color: #45b32c; /* vert foncé au hover */
+        transform: scale(1.05);
+    }
+
+.signup-btn2 {
+    width: 160px;
+    height: 40px;
+    background-color: #36a51a; /* vert */
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+    .signup-btn2:hover {
+        background-color: #45b32c; /* vert foncé au hover */
+        transform: scale(1.05);
+    }
+
+
+
+
+    /******************** Login partie *************/
+
+.login-card {
+    width: 440px;
+}
+
+.title-login {
+    font-weight: 400;
+}
+
+.continue-btn {
+    width: 100%;
+    height: 40px;
+    background-color: #054ebb; /* vert */
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+    .continue-btn:hover {
+        background-color: #063c8e;
+        transform: scale(1.02);
+    }
+
+.signup-link {
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    background-color: #36a51a; /* vert */
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .signup-link:hover {
+        background-color: #45b32c; /* vert foncé au hover */
+        transform: scale(1.05);
+    }
+
+
+    /******************** Signup ********************/
+
+.role-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+    .role-card:hover {
+        transform: scale(1.03);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+.role-radio {
+    transform: scale(1.3);
+    margin-right: 10px;
+}
+
+.mt-6 {
+    margin-top: 6rem; /* tu mets ce que tu veux */
+}
+/* Container pour centrer */
+.create-account-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/* Bouton personnalisé */
+.create-account-btn {
+    background: #054ebb;
+    color: white;
+    font-size: 15px;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    /* Effets */
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 90, 255, 0.3);
+}
+
+    /* Animation hover */
+    .create-account-btn:hover {
+        transform: translateY(-3px) scale(1.03);
+        box-shadow: 0 8px 18px rgba(0, 90, 255, 0.4);
+    }
+
+    /* Effet click */
+    .create-account-btn:active {
+        transform: scale(0.98);
+    }
+
+
+/* Container pour centrer */
+.create-account-container-2 {
+    text-align: center;
+}
+
+/* Bouton personnalisé */
+.create-account-btn-2 {
+    background: #054ebb;
+    color: white;
+    font-size: 15px;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    /* Effets */
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 90, 255, 0.3);
+}
+
+    /* Animation hover */
+    .create-account-btn-2:hover {
+        transform: translateY(-3px) scale(1.03);
+        box-shadow: 0 8px 18px rgba(0, 90, 255, 0.4);
+    }
+
+    /* Effet click */
+    .create-account-btn-2:active {
+        transform: scale(0.98);
+    }
+
+
+
+
+   
